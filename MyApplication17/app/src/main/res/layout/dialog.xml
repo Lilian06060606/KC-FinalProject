@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/s77"
+    android:orientation="vertical"
+    app:layout_constraintCircleRadius="10dp">
+
+    <LinearLayout
+        android:id="@+id/cardd"
+        android:layout_width="353dp"
+        android:layout_height="367dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/erland"
+        android:orientation="vertical"
+        app:cardCornerRadius="10dp">
+
+    </LinearLayout>
+</LinearLayout>
