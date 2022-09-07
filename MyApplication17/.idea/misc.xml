@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/drawable-v24/shape4.xml" value="0.184" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/drawable/back.xml" value="0.1745" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/drawable/dialog.xml" value="0.129" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1075" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/drawable/shape1.xml" value="0.1075" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/drawable/shape3.xml" value="0.1395" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/drawable/shape5.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/drawable/shape6.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/drawable/shape7.xml" value="0.183" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/font/font.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_college.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_content.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_content1.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_content2.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_content3.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_content4.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_cute.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_detail.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_detail123.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_details.xml" value="0.22" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_english_c.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_hwo.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_image.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_mc.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_money.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_name.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_rate.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_rules.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_uk.xml" value="0.22" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_unidatails.xml" value="0.12" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/activity_ws.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/buildingo.xml" value="0.22" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/buying.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog1.xml" value="0.22" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog10.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog11.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog2.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog3.xml" value="0.22" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog4.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog5.xml" value="0.1" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog6.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog7.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/dialog8.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/foodyum.xml" value="0.22" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/rate.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/transpory.xml" value="0.22" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/universities.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/viewpager.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/hamed/AndroidStudioProjects/MyApplication17/app/src/main/res/layout/vieww.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

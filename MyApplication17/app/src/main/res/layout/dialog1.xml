@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="172dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/shape3"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:autoLink="all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/janna"
+            android:text="Studio Campridge"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:autoLink="all"
+            android:fontFamily="@font/janna"
+            android:minHeight="48dp"
+            android:text="https://www.studiocambridge.co.uk/"
+            android:textAlignment="center"
+            android:textColor="#36B4C5"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button000"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape4"
+            android:fontFamily="@font/janna"
+            android:minHeight="48dp"
+
+            android:text="x"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</LinearLayout>

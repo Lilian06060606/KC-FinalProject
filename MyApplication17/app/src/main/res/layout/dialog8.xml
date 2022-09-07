@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="314dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/shape3"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="245dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="44dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/janna"
+                    android:text=" (5) جنيهات أُسترلينية"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="44dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/janna"
+                    android:text="  (10) جنيهات أُسترلينية"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+                android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="44dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/janna"
+                    android:text="  (20) جنيهات أُسترلينية"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="262dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="44dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/janna"
+                    android:text="  (59) جنيهات أُسترلينية"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button000"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shape4"
+            android:fontFamily="@font/janna"
+            android:text="x"
+
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</LinearLayout>

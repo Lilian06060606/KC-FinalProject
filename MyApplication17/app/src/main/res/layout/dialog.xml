@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="445dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/shape3"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="414dp"
+            android:layout_height="381dp"
+            android:layout_marginLeft="-18dp"
+            android:layout_marginTop="-88dp"
+            app:srcCompat="@drawable/rateus" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="-97dp"
+            android:contentDescription="@string/app_name"
+            android:numStars="5"
+            android:progressTint="#FFEB3B" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/janna"
+            android:text="مُبتعثنا نرجو منك تقيم التطبيق بكل مصداقية ، وذلك سوف يساعدنا في تحسين وتطوير التطبيق!"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button000"
+            android:layout_width="162dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape4"
+            android:fontFamily="@font/janna"
+            android:text="إرسال"
+
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button0000"
+            android:layout_width="162dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="-59dp"
+            android:background="@drawable/shape4"
+            android:fontFamily="@font/janna"
+            android:text="لاحقًا"
+
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="270dp"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>

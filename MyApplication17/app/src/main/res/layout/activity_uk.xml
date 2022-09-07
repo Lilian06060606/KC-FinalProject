@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bachg"
+    android:orientation="vertical"
+    tools:context=".Uk">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="720dp"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="34dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="-40dp"
+        app:srcCompat="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="46dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-42dp"
+        app:srcCompat="@drawable/ic_baseline_notifications_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="320dp"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="554dp"
+        android:layout_marginTop="-622dp"
+        android:fillViewport="true"
+        android:contentDescription="@string/app_name">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/univer"
+                android:layout_width="242dp"
+                android:layout_height="274dp"
+                android:layout_marginLeft="207dp"
+                android:layout_marginTop="-30dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/univer"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/univer" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/food"
+                android:layout_width="223dp"
+                android:layout_height="244dp"
+                android:layout_marginLeft="216dp"
+                android:layout_marginTop="-25dp"
+                android:background="@drawable/food"
+                android:contentDescription="@string/app_name" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/coins"
+                android:layout_width="223dp"
+                android:layout_height="244dp"
+                android:layout_marginLeft="216dp"
+                android:layout_marginTop="-18dp"
+                android:background="@drawable/coins"
+                android:contentDescription="@string/app_name" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/selling"
+                android:layout_width="234dp"
+                android:layout_height="246dp"
+                android:layout_marginLeft="214dp"
+                android:layout_marginTop="-20dp"
+                android:background="@drawable/buysell"
+                android:contentDescription="@string/app_name" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/building"
+                android:layout_width="246dp"
+                android:layout_height="270dp"
+                android:layout_marginLeft="-8dp"
+                android:layout_marginTop="-944dp"
+                android:background="@drawable/build"
+                android:contentDescription="@string/app_name" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/trans"
+                android:layout_width="239dp"
+                android:layout_height="263dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="-33dp"
+                android:background="@drawable/trans"
+                android:contentDescription="@string/app_name" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/lang"
+                android:layout_width="235dp"
+                android:layout_height="263dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="-33dp"
+                android:background="@drawable/lang"
+                android:contentDescription="@string/app_name" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

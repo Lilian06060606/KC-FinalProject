@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/saaaa"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="720dp"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="34dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="-40dp"
+        app:srcCompat="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="46dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-42dp"
+        app:srcCompat="@drawable/ic_baseline_notifications_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="320dp"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-693dp"
+        android:fontFamily="@font/janna"
+        android:text="حياك"
+        android:textAlignment="textStart"
+        android:textColor="#013C6D"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginTop="-40dp"
+        android:fontFamily="@font/janna"
+        android:text="#دايمًا واياك"
+        android:padding="10dp"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="-40dp"
+        android:textColor="#013C6D"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:contentDescription="@string/app_name"
+        android:fillViewport="true"
+        android:scrollX="100000dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/society"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="مُجتمعنا"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/helpp"
+                android:layout_width="152dp"
+                android:layout_marginTop="-3dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="شلون تستخدم التطبيق"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/follow"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="تابع مجلتنا"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/help"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="خدمة العملاء"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/register"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="التسجيل في البعثات"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/share"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="شارك تطبيقنا"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/rating"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="قيمنا"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/hwo"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="عن التطبيق"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="129dp"
+        android:layout_marginLeft="16dp">
+
+
+        <ImageView
+
+            android:id="@+id/imageView13"
+            android:layout_width="360dp"
+            android:layout_height="129dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/present" />
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:scrollX="100000dp"
+        android:layout_width="430dp"
+        android:layout_height="150dp"
+       android:layout_marginTop="4dp"
+        android:contentDescription="@string/app_name"
+        android:fillViewport="true"
+        android:adjustViewBounds="true"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:adjustViewBounds="true"
+
+            >
+
+            <ImageView
+                android:id="@+id/egy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/egy" />
+
+            <ImageView
+                android:id="@+id/jor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/jo" />
+            <ImageView
+                android:id="@+id/bah"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/bah" />
+            <ImageView
+                android:id="@+id/sau"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/sau" />
+            <ImageView
+                android:id="@+id/newz"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/newz" />
+            <ImageView
+                android:id="@+id/malta"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/malta" />
+            <ImageView
+                android:id="@+id/france"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/france" />
+            <ImageView
+                android:id="@+id/erland"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/erland" />
+            <ImageView
+                android:id="@+id/canada"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/kanada" />
+            <ImageView
+                android:id="@+id/aus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/aus" />
+            <ImageView
+                android:id="@+id/usa"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/usa" />
+            <ImageView
+                android:id="@+id/uk"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/uk" />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="464dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:fontFamily="@font/janna"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="جميع المعلومات المُرفقة في التطبيق موضوعة وفق خطة البعثات لعام 2022م ،وحاليًا لطلاب المدارس العامة (الحكومية) ،راحتكم غايتنا:)"
+            android:textColor="#013C6D"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="430dp"
+        android:layout_height="105dp"
+        android:scrollX="100000dp"
+        android:contentDescription="@string/app_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/frienshh" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/out" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/doc" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/things2" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/things" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ielts" />
+            <ImageView
+                android:id="@+id/image19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/rules" />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

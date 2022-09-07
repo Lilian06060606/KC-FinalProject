@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ukbackg"
+    android:orientation="vertical"
+    tools:context=".Money">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="720dp"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="34dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="-40dp"
+        app:srcCompat="@drawable/heart" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="46dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-42dp"
+        app:srcCompat="@drawable/ic_baseline_notifications_24" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="-50dp"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-700dp"
+        android:fontFamily="@font/janna"
+        android:text="العملة المتداولة في المملكة المتحدة هي الجنيه الأسترليني (£) الذي تبلغ قيمته 100 بنس (Pence)."
+        android:textAlignment="center"
+        android:textColor="#DD4F4F"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="538dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t1"
+                cardCornerRadius="20dp"
+                android:layout_width="395dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-3dp"
+                android:backgroundTint="#656BE3"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/janna"
+                    android:text="  القطع النقدية"
+                    android:textAlignment="textStart"
+                    android:textColor="#0C163C"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/up7"
+                    android:layout_width="60dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/ic_baseline_arrow_drop_down_circle_24" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t2"
+                cardCornerRadius="20dp"
+                android:layout_width="395dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="17dp"
+                android:backgroundTint="#656BE3"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/janna"
+                    android:text="  الأوراق النقدية"
+                    android:textAlignment="textStart"
+                    android:textColor="#0C163C"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/up8"
+                    android:layout_width="60dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/ic_baseline_arrow_drop_down_circle_24" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/t3"
+                cardCornerRadius="20dp"
+                android:layout_width="395dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="17dp"
+                android:backgroundTint="#656BE3"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/janna"
+                    android:text="  محول العُملات"
+                    android:textAlignment="textStart"
+                    android:textColor="#0C163C"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/up9"
+                    android:layout_width="60dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="17dp"
+                    android:src="@drawable/ic_baseline_arrow_drop_down_circle_24" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="394dp"
+        android:layout_height="267dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-290dp"
+        android:src="@drawable/money1" />
+
+</LinearLayout>
