@@ -60,7 +60,7 @@
                     android:layout_marginLeft="44dp"
                     android:layout_marginTop="40dp"
                     android:fontFamily="@font/janna"
-                    android:text="  (59) جنيهات أُسترلينية"
+                    android:text="  (50) جنيهات أُسترلينية"
                     android:textAlignment="center"
                     android:textSize="25sp" />
 

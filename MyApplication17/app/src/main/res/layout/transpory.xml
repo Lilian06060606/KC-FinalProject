@@ -50,14 +50,14 @@
         <TextView
             android:id="@+id/textView25"
             android:layout_width="207dp"
-            android:layout_height="34dp"
-            android:layout_marginLeft="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="152dp"
             android:layout_marginTop="60dp"
             android:fontFamily="sans-serif-medium"
             android:text="https://www.ox.ac.uk/"
             android:textAlignment="center"
             android:textColor="#14BCAB"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textStyle="bold|italic" />
 
         <ImageView

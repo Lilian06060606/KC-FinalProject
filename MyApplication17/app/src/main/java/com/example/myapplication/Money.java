@@ -23,9 +23,7 @@ public class Money extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent4 = new Intent(Money.this,Home.class);
-                startActivity(intent4);
-                overridePendingTransition(R.anim.anim5,R.anim.anim4);
-                finish();}});
+                startActivity(intent4);}});
         ImageView up7 = findViewById(R.id.up7);
         ImageView up8 = findViewById(R.id.up8);
         ImageView up9 = findViewById(R.id.up9);

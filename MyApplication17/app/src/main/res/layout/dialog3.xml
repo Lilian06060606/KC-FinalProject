@@ -38,7 +38,7 @@
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="324dp"
-                    android:layout_height="45dp"
+                    android:layout_height="48dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="-10dp"
                     android:autoLink="all"
@@ -47,29 +47,7 @@
                     android:textAlignment="center"
                     android:textColor="#36B4C5"
                     android:textSize="20sp" />
-                <TextView
-                    android:id="@+id/textView20"
-                    android:layout_width="306dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="20dp"
-                    android:autoLink="all"
-                    android:fontFamily="@font/janna"
-                    android:text="CES,Oxford"
-                    android:textAlignment="center"
-                    android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/textView19"
-                    android:layout_width="324dp"
-                    android:layout_height="45dp"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="-10dp"
-                    android:autoLink="all"
-                    android:textAlignment="center"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    tools:text="https://ces-schools.com" />
                 <TextView
                     android:id="@+id/textView40"
                     android:layout_width="306dp"
@@ -94,6 +72,53 @@
                     android:textAlignment="center"
                     android:textColor="#36B4C5"
                     android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="306dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:autoLink="all"
+                    android:fontFamily="@font/janna"
+                    android:text="Meridian School Of English Portsmouth"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="324dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-10dp"
+                    android:autoLink="all"
+                    android:fontFamily="@font/janna"
+                    android:text="https://meridianplymouth.co.uk/meridian-english-school-in-portsmouth/"
+                    android:textAlignment="center"
+                    android:textColor="#36B4C5"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="306dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:autoLink="all"
+                    android:fontFamily="@font/janna"
+                    android:text="CES,Oxford"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/textView89"
+                    android:layout_width="324dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="-10dp"
+                    android:autoLink="all"
+                    android:fontFamily="@font/janna"
+                    android:text="https://ces-schools.com"
+                    android:textAlignment="center"
+                    android:textColor="#36B4C5"
+                    android:textSize="20sp" />
             </LinearLayout>
         </ScrollView>
 
@@ -106,33 +131,8 @@
             android:background="@drawable/shape4"
             android:fontFamily="@font/janna"
             android:text="x"
-
             android:textSize="25dp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/textView81"
-            android:layout_width="306dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="20dp"
-            android:autoLink="all"
-            android:fontFamily="@font/janna"
-            android:text="Meridian School Of English Portsmouth"
-            android:textAlignment="center"
-            android:textSize="20sp" />
-
-        <TextView
-            android:id="@+id/textView80"
-            android:layout_width="324dp"
-            android:layout_height="45dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="-10dp"
-            android:autoLink="all"
-            android:fontFamily="@font/janna"
-            android:text="https://meridianplymouth.co.uk/meridian-english-school-in-portsmouth/"
-            android:textAlignment="center"
-            android:textColor="#36B4C5"
-            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>

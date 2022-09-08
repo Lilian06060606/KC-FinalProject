@@ -29,7 +29,7 @@
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextTextPersonName12"
         android:layout_width="266dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="80dp"

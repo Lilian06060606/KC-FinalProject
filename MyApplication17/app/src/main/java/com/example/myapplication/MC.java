@@ -2,12 +2,14 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -22,15 +24,17 @@ public class MC extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mc);
-        EditText currentnumb = findViewById(R.id.editTextTextPersonName);
+        EditText currentnumb = findViewById(R.id.Num);
         Spinner from = findViewById(R.id.spinner);
         Spinner to= findViewById(R.id.spinner1);
         Button convert = findViewById(R.id.button50);
         TextView result = findViewById(R.id.textView50);
+        ImageView home = findViewById(R.id.imageView2);
         String[]list = {"GBP","KD"};
         ArrayAdapter<String> adapter= new ArrayAdapter<String>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item,list);
         from.setAdapter(adapter);
         to.setAdapter(adapter);
+        //مع الأسف الكود بالكامل صحيح لكن الإيرور ينتصر
 convert.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
@@ -51,7 +55,11 @@ convert.setOnClickListener(new View.OnClickListener() {
 
     }
 });
-
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent4 = new Intent(MC.this,Home.class);
+                startActivity(intent4);}});
 
     }
 }

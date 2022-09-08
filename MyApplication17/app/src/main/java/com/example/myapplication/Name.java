@@ -16,7 +16,8 @@ public class Name extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_name);
         Button start = findViewById(R.id.button1);
-        EditText edtname = findViewById(R.id.editTextTextPersonName);
+        EditText edtname = findViewById(R.id.editTextTextPersonName12);
+
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -25,9 +26,10 @@ public class Name extends AppCompatActivity {
                     Toast.makeText(Name.this, "املأ الفراغ", Toast.LENGTH_SHORT).show();
                 } else {
                     String name = edtname.getText().toString();
-
+                    edtname.getText().toString();
                     Intent intent3 = new Intent(Name.this,Home.class);
-                    intent3.putExtra("name", name);
+                    String namo= edtname.getText().toString();
+                    intent3.putExtra("name", namo);
                     startActivity(intent3);
                     overridePendingTransition(R.anim.anim4,R.anim.anim5);
                     finish();

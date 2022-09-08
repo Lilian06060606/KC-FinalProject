@@ -43,9 +43,9 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="354dp"
+        android:layout_width="168dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="250dp"
         android:layout_marginTop="-693dp"
         android:fontFamily="@font/janna"
         android:text="حياك"
@@ -53,6 +53,7 @@
         android:textColor="#013C6D"
         android:textSize="55sp"
         android:textStyle="bold" />
+
 
     <TextView
         android:id="@+id/textView5"
@@ -74,6 +75,8 @@
         android:layout_width="match_parent"
         android:layout_height="62dp"
         android:contentDescription="@string/app_name"
+        android:layoutDirection="rtl"
+        android:supportsRtl="true"
         android:fillViewport="true"
         android:scrollX="100000dp">
 
@@ -81,7 +84,57 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/hwo"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="عن التطبيق"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/rating"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="قيمنا"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/share"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="شارك تطبيقنا"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/helpp"
+                android:layout_width="152dp"
+                android:layout_marginTop="-3dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="طريقة التسجيل"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/register"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/shape1"
+                android:fontFamily="@font/janna"
+                android:text="موقع الوزارة"
+                android:textSize="24sp"
+                android:textStyle="bold" />
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/society"
                 android:layout_width="152dp"
@@ -93,17 +146,7 @@
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/helpp"
-                android:layout_width="152dp"
-                android:layout_marginTop="-3dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="13dp"
-                android:background="@drawable/shape1"
-                android:fontFamily="@font/janna"
-                android:text="شلون تستخدم التطبيق"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/follow"
@@ -129,48 +172,10 @@
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/register"
-                android:layout_width="152dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="13dp"
-                android:background="@drawable/shape1"
-                android:fontFamily="@font/janna"
-                android:text="التسجيل في البعثات"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/share"
-                android:layout_width="152dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="13dp"
-                android:background="@drawable/shape1"
-                android:fontFamily="@font/janna"
-                android:text="شارك تطبيقنا"
-                android:textSize="24sp"
-                android:textStyle="bold" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/rating"
-                android:layout_width="152dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="13dp"
-                android:background="@drawable/shape1"
-                android:fontFamily="@font/janna"
-                android:text="قيمنا"
-                android:textSize="24sp"
-                android:textStyle="bold" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/hwo"
-                android:layout_width="152dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="13dp"
-                android:background="@drawable/shape1"
-                android:fontFamily="@font/janna"
-                android:text="عن التطبيق"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+
+
 
 
         </LinearLayout>
@@ -185,9 +190,9 @@
         <ImageView
 
             android:id="@+id/imageView13"
-            android:layout_width="360dp"
-            android:layout_height="129dp"
-            android:layout_marginLeft="-4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/present" />
     </LinearLayout>
@@ -197,6 +202,8 @@
         android:scrollX="100000dp"
         android:layout_width="430dp"
         android:layout_height="150dp"
+        android:layoutDirection="rtl"
+        android:supportsRtl="true"
        android:layout_marginTop="4dp"
         android:contentDescription="@string/app_name"
         android:fillViewport="true"
@@ -210,6 +217,55 @@
             android:adjustViewBounds="true"
 
             >
+            <ImageView
+                android:id="@+id/uk"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/uk" />
+            <ImageView
+                android:id="@+id/usa"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/usa" />
+
+            <ImageView
+                android:id="@+id/aus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/aus" />
+            <ImageView
+                android:id="@+id/canada"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/kanada" />
+            <ImageView
+                android:id="@+id/erland"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/erland" />
+            <ImageView
+                android:id="@+id/newz"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/newz" />
+            <ImageView
+                android:id="@+id/malta"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/malta" />
+            <ImageView
+                android:id="@+id/france"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/france" />
 
             <ImageView
                 android:id="@+id/egy"
@@ -236,54 +292,9 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:src="@drawable/sau" />
-            <ImageView
-                android:id="@+id/newz"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/newz" />
-            <ImageView
-                android:id="@+id/malta"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/malta" />
-            <ImageView
-                android:id="@+id/france"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/france" />
-            <ImageView
-                android:id="@+id/erland"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/erland" />
-            <ImageView
-                android:id="@+id/canada"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/kanada" />
-            <ImageView
-                android:id="@+id/aus"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/aus" />
-            <ImageView
-                android:id="@+id/usa"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/usa" />
-            <ImageView
-                android:id="@+id/uk"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/uk" />
+
+
+
 
 
 
@@ -320,43 +331,42 @@
         android:layout_width="430dp"
         android:layout_height="105dp"
         android:scrollX="100000dp"
+        android:layoutDirection="rtl"
+        android:supportsRtl="true"
         android:contentDescription="@string/app_name">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/frienshh" />
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/out" />
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/doc" />
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:adjustViewBounds="true"
-                android:src="@drawable/things2" />
-            <ImageView
+                android:id="@+id/regg"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:src="@drawable/things" />
             <ImageView
+                android:id="@+id/eiltss"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:src="@drawable/ielts" />
+
+
+            <ImageView
+                android:id="@+id/page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/doc" />
+            <ImageView
+                android:id="@+id/the"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/things2" />
+
+
             <ImageView
                 android:id="@+id/image19"
                 android:layout_width="match_parent"
@@ -364,8 +374,32 @@
                 android:adjustViewBounds="true"
                 android:src="@drawable/rules" />
 
-
+            <ImageView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/out" />
+            <ImageView
+                android:id="@+id/friends"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/frienshh" />
 
         </LinearLayout>
     </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView200"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-633dp"
+        android:fontFamily="@font/janna"
+        android:text="حياك"
+        android:textAlignment="textEnd"
+        android:textColor="#013C6D"
+        android:textSize="55sp"
+        android:textStyle="bold" />
 </LinearLayout>

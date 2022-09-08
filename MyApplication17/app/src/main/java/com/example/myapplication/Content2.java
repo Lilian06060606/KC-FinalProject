@@ -19,7 +19,7 @@ ArrayList<Transporation>transporationslist=new ArrayList<>();
         setContentView(R.layout.activity_content2);
         ImageView home = findViewById(R.id.imageView2);
         Transporation gm = new Transporation("Google Maps","https://play.google.com/store/apps/details?id=com.google.android.apps.maps",R.drawable.gmap);
-        Transporation fn = new Transporation("Google Maps","https://play.google.com/store/apps/details?id=taxi.android.client",R.drawable.fn);
+        Transporation fn = new Transporation("Free Now","https://play.google.com/store/apps/details?id=taxi.android.client",R.drawable.fn);
         Transporation avan = new Transporation("Avanti West Coast","https://play.google.com/store/apps/details?id=com.avantiwestcoast",R.drawable.avanti);
         Transporation city = new Transporation("Citymapper","https://play.google.com/store/apps/details?id=com.citymapper.app.release",R.drawable.citymapper);
         Transporation uber = new Transporation("Uber","https://play.google.com/store/apps/details?id=com.ubercab",R.drawable.uber);
@@ -38,10 +38,8 @@ transporationslist.add(tvl);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent4 = new Intent(Content2.this,Home.class);
-                startActivity(intent4);
-                overridePendingTransition(R.anim.anim5,R.anim.anim4);
-                finish();}});
+                Intent intent900 = new Intent(Content2.this,Home.class);
+                startActivity(intent900);}});
 
 
 

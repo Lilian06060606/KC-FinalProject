@@ -55,18 +55,10 @@ ImageView home = findViewById(R.id.imageView2);
         universitieslist.add(ug);
 UniversitiesA universitiesA = new UniversitiesA(this,0,universitieslist);
 
-ImageView imageView = findViewById(R.id.imageView11);
+
         ListView listView3 = findViewById(R.id.listview);
         listView3.setAdapter(universitiesA);
 
-
-        home.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View view) {
-               Intent intent4 = new Intent(Content.this,Home.class);
-               startActivity(intent4);
-               overridePendingTransition(R.anim.anim5,R.anim.anim4);
-               finish();}});
 
 
 

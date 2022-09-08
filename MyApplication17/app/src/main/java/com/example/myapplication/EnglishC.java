@@ -34,9 +34,7 @@ public class EnglishC extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent4 = new Intent(EnglishC.this,Home.class);
-                startActivity(intent4);
-                overridePendingTransition(R.anim.anim5,R.anim.anim4);
-                finish();}});
+                startActivity(intent4);}});
 
         ImageView up1 = findViewById(R.id.up1);
         ImageView up2 = findViewById(R.id.up2);

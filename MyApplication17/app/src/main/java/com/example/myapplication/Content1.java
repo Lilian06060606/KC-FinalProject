@@ -39,11 +39,8 @@ public class Content1 extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent4 = new Intent(Content1.this,Home.class);
-                startActivity(intent4);
-
-                overridePendingTransition(R.anim.anim5,R.anim.anim4);
-                finish();}});
+                Intent intent800 = new Intent(Content1.this,Home.class);
+                startActivity(intent800);}});
 
 
 

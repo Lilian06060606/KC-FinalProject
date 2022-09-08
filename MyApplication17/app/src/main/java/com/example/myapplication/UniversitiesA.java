@@ -55,7 +55,7 @@ Universities currentuni = universitiesList.get(position);
                 context.startActivity(i);           }
         }); link.setMovementMethod(LinkMovementMethod.getInstance());
         ImageView descc = view.findViewById(R.id.image19);
-
+//كنت عاملة كود لدبالوغ التفاصيل لما أضغط عالزر اللي فوق وحذفته ونسيت أرجعه بس ترا موش غال مع إنه الكود صح
 
         return view;
     }

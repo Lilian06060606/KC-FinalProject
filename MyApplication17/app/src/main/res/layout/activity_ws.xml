@@ -14,7 +14,7 @@
         android:layout_height="212dp"
         android:layout_marginTop="520dp"
         android:fontFamily="@font/janna"
-        android:text="كل شي تحتاجه من مواصلات وسكن ومكاتب موجود عنا ، راحتك غايتنا:)"
+        android:text="كل شي تحتاجه من مواصلات وسكن  موجود عنا ، راحتك غايتنا:)"
         android:textAlignment="center"
         android:textColor="#013C6D"
         android:textSize="32sp"

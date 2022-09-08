@@ -51,26 +51,66 @@ public class Home extends AppCompatActivity {
         ImageView egy = findViewById(R.id.egy);
         ImageView jor = findViewById(R.id.jor);
         ImageView bah = findViewById(R.id.bah);
-Button register = findViewById(R.id.register);
-ImageView erule = findViewById(R.id.image19);
-
-
-erule.setOnClickListener(new View.OnClickListener() {
+        Button register = findViewById(R.id.register);
+        ImageView erule = findViewById(R.id.image19);
+        ImageView eiltss = findViewById(R.id.eiltss);
+        ImageView regg= findViewById(R.id.regg);
+        ImageView the= findViewById(R.id.the);
+        ImageView page= findViewById(R.id.page);
+        ImageView logoo = findViewById(R.id.logout);
+        ImageView friend= findViewById(R.id.friends);
+        TextView hi = findViewById(R.id.textView200);
+        Bundle bundle = getIntent().getExtras();
+        String name = bundle.getString("name");
+        hi.setText(name);
+        erule.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
         Intent intent1010 = new Intent(Home.this,Rules.class);
-        startActivity(intent1010);
+        startActivity(intent1010);}});
+
+        eiltss.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent eltso = new Intent(Home.this,Eilts.class);
+        startActivity(eltso);
     }
 });
-
+        regg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent300 = new Intent(Home.this,Registro.class);
+                startActivity(intent300);
+            }
+        });
+        the.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent400 = new Intent(Home.this,The.class);
+                startActivity(intent400);
+            }
+        });
+        page.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent500 = new Intent(Home.this,Page.class);
+                startActivity(intent500);
+            }
+        });
+        logoo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(Home.this,"قريبًا...",Toast.LENGTH_SHORT).show();}});
+        friend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(Home.this,"قريبًا...",Toast.LENGTH_SHORT).show();}});
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent4 = new Intent(Home.this,Home.class);
-                startActivity(intent4);
-                overridePendingTransition(R.anim.anim5,R.anim.anim4);
-                finish();}});
+                startActivity(intent4);}});
 
         hwo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -119,7 +159,9 @@ erule.setOnClickListener(new View.OnClickListener() {
         how.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Home.this,"قريبًا...",Toast.LENGTH_SHORT).show();}});
+             Intent intent2000 = new Intent(Home.this,Ved.class);
+             startActivity(intent2000);
+            }});
        help.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -216,6 +258,7 @@ erule.setOnClickListener(new View.OnClickListener() {
                         alertDialog.cancel();
                     }});
                 alertDialog.show();
+
 
             }
         });

@@ -30,9 +30,7 @@ public class Content4 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent5 = new Intent(Content4.this,Home.class);
-                startActivity(intent5);
-                overridePendingTransition(R.anim.anim5,R.anim.anim4);
-                finish();}});
+                startActivity(intent5);}});
 
     }
 }
